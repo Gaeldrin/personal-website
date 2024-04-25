@@ -17,9 +17,6 @@ And so I started by looking at the market, to see what is available. I found sev
 
 and everything secured and controlled by the newly integrated Identity and Access Management system (Perun) in conjunction with internal Single Sign-On proxy, both of which I also helped to develop.
 
-### Technologies Used
-The technologies used in this project include Java, HTML, CSS, JavaScript and several open source projects like SignServer, BouncyCastle, Graylog, Perun, ProxyIdP, MitreID, openSAMLphp etc. Probably forgetting a few.
-
 ### Challenges and Lessons Learned
 For me this was a big learning experience, I have had to personally go through each and every step of aplication lifecycle from planning and market research over design and implementation to administration and maintenance and finally hand-over.
 
