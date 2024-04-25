@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+title: Projects
+---
+<div class="projects-container">
+    <h2>Projects</h2>
+    <p>
+        Here I select only a few projects that I am particularly proud or fond of, for a more complete list please see the Resume.
+    </p>
+    <br>
+    <div class="projects-grid">
+        {% for project in collections.projects %}
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="small-icons">
+                      {% if project.data.gitHubURL %}
+                        <a href={{project.data.gitHubURL}} target="_blank"><i class="fa-brands fa-github"></i></a>
+                      {% endif %}
+                    </div>
+                </div>
+                <h3>{{project.data.title}}</h3>
+                <p>{{project.data.description}}</p>
+                <a href="{{project.url}}" class="cta-btn">Read more</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
