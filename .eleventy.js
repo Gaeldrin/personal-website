@@ -12,10 +12,10 @@ module.exports = function (eleventyConfig) {
     return `${new Date().getFullYear()}`;
   });
 
-	return {
-		dir: {
-			input: 'src',
-			output: 'public',
-		},
-	};
+  return {
+    dir: {
+      input: 'src',
+      output: '_site',
+    },
+  };
 };
